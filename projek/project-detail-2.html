@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detail Proyek: SASIPAH | AresDev</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../style.css">
+
+    <script src="../script.js" defer></script>
+</head>
+<body>
+
+    <!-- Header -->
+    <header id="header">
+        <a href="../index.html" class="logo">Ares<span>Dev</span></a>
+        <nav class="navbar">
+            <a href="../index.html#landing" class="nav-link">Home</a>
+            <a href="../index.html#about" class="nav-link">About</a>
+            <a href="../index.html#myskills" class="nav-link">Skills</a>
+            <a href="../index.html#projek" class="nav-link">Projects</a>
+            <a href="../index.html#contact" class="nav-link">Contact</a>
+        </nav>
+        <div class="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+    </header>
+
+    <main class="project-detail-page">
+        <!-- Section 1: Project Hero -->
+        <section class="project-hero">
+            <div class="project-header">
+                <a href="../index.html#projek" class="back-link"><i class="fas fa-arrow-left"></i> Kembali ke Proyek</a>
+                <h1>SASIPAH: Sinergi Aplikasi Agree dan Sistem IoT untuk Pengendalian Hama Padi</h1>
+                <p class="project-summary">Proyek SASIPAH menggabungkan teknologi IoT dan aplikasi digital untuk membantu petani di Desa Muara Purba Nauli 
+                    mengendalikan hama padi secara efisien dan meningkatkan pendapatan melalui platform Agree.</p>
+                
+                <!-- <div class="project-links">
+                    <a href="https://godares-lab.github.io/KalkulatorInvestasiOnlineBungaMasaDepan/" class="btn" target="_blank" rel="noopener noreferrer">Lihat Live Demo <i class="fas fa-external-link-alt"></i></a>
+                    <a href="https://github.com/GODAres-lab/KalkulatorInvestasiOnlineBungaMasaDepan" class="btn btn-alt" target="_blank" rel="noopener noreferrer">Lihat Source Code <i class="fab fa-github"></i></a>
+                </div> -->
+            </div>
+            <div class="hero-image">
+                <!-- Ganti gambar -->
+                <img src="../images/projek2/p2image0.jpg" alt="Foto bersama Warga desa">
+            </div>
+        </section>
+
+        <!-- Section 2: Project Content -->
+        <section class="project-content">
+            <div class="project-content-grid">
+                <!-- Kolom Kiri: Deskripsi Detail -->
+                <div class="project-description">
+                    <h2>Tentang Proyek</h2>
+                    <p>Proyek SASIPAH (Sinergi Aplikasi Agree dan Sistem IoT untuk Pengendalian Hama Padi) 
+                        dikembangkan oleh Tim TechCare Innovators dari Telkom University Jakarta dengan dukungan dosen pendamping. 
+                        Proyek ini dilaksanakan di Desa Muara Purba Nauli, Kabupaten Tapanuli Selatan, Sumatra Utara, yang merupakan 
+                        daerah agraris dengan mayoritas penduduk bermata pencaharian sebagai petani padi.
+                        <br><br>
+                        Pendanaan proyek berasal dari Program Innovillage 2024, yang diperoleh tim melalui 
+                        seleksi proposal inovasi sosial berbasis teknologi. Dana ini digunakan untuk perancangan, 
+                        pengembangan, serta implementasi alat dan aplikasi pendukung di lapangan.
+                        <br><br>
+                        Permasalahan utama yang dihadapi masyarakat adalah serangan hama seperti tikus dan walang sangit, 
+                        yang menyebabkan kerugian hasil panen hingga 50%. Upaya tradisional seperti racun dan perangkap terbukti kurang efektif.
+                        <br><br>
+                        Sebagai solusi, tim mengembangkan alat IoT bernama PASTI yang menggunakan cahaya LED UV dan suara ultrasonik untuk 
+                        mengusir hama tanpa merusak tanaman. Selain itu, dikembangkan pula aplikasi PASTI yang terintegrasi dengan platform Agree, 
+                        berfungsi sebagai media manajemen pertanian dan pemasaran hasil tani. Inovasi ini tidak hanya membantu petani meningkatkan 
+                        hasil panen, tetapi juga membuka akses ke pasar digital secara berkelanjutan.<br>
+                    </p>
+                    
+                    <h3>Tantangan & Solusi</h3>
+                    <p>Untuk mengatasi tantangan seperti rendahnya tingkat adopsi teknologi di kalangan petani, keterbatasan infrastruktur internet di desa, keterlambatan 
+                        pengadaan perangkat IoT, serta masalah teknis dalam integrasi komponen IoT, diperlukan serangkaian solusi strategis. Sosialisasi dan pelatihan 
+                        intensif bagi petani menjadi langkah awal untuk meningkatkan pemahaman dan penerimaan terhadap teknologi. Penggunaan panel surya 
+                        dapat mendukung kemandirian energi di daerah terpencil yang belum terjangkau listrik stabil. Selain itu, debugging serta perbaikan 
+                        teknis secara berkala diperlukan untuk memastikan perangkat IoT berjalan optimal. Terakhir, integrasi dengan platform Agree dapat memperkuat aspek 
+                        pemasaran digital, membuka akses pasar yang lebih luas bagi produk pertanian.</p>
+
+                    <h3>Fitur Utama</h3>
+                    <ul>
+                        <li><i class="fas fa-check-circle"></i> Perangkat IoT PASTI dengan sensor ultrasonik dan lampu UV untuk mengusir hama tikus 
+                            dan walang sangit secara otomatis.</li>
+                        <li><i class="fas fa-check-circle"></i> Modul ESP32 yang terhubung dengan server MQTT untuk pemantauan dan kontrol real-time melalui internet.</li>
+                        <li><i class="fas fa-check-circle"></i> Sumber daya mandiri menggunakan panel surya, mengurangi ketergantungan pada listrik PLN.</li>
+                        <li><i class="fas fa-check-circle"></i> Aplikasi PASTI berbasis Flutter dengan fitur pemantauan lahan pertanian secara digital.</li>
+                        <li><i class="fas fa-check-circle"></i> Manajemen pemupukan dan pengelolaan keuangan petani melalui aplikasi.</li>
+                        <li><i class="fas fa-check-circle"></i> Integrasi dengan platform Agree untuk penjualan hasil panen secara digital.</li>
+                        <li><i class="fas fa-check-circle"></i> Speaker ultrasonic dengan jangkauan 15-20 meter untuk pengusiran hama tikus.</li>
+                        <li><i class="fas fa-check-circle"></i> Pelatihan dan sosialisasi intensif bagi petani untuk memastikan adopsi teknologi yang optimal.</li>
+                        <li><i class="fas fa-check-circle"></i> Desain alat yang tahan lingkungan dengan wadah dari tong sampah plastik yang dimodifikasi.</li>
+                    </ul>
+                </div>
+                <!-- Kolom Kanan: Metadata -->
+                <aside class="project-meta">
+                    <h4>Informasi Proyek</h4>
+                    <div class="meta-item">
+                        <span>Klien:</span>
+                        <p>Program Innovillage 2024/2025</p>
+                    </div>
+                    <div class="meta-item">
+                        <span>Peran Saya:</span>
+                        <p>Pengembangan aplikasi PASTI dan desain UI/UX.</p>
+                    </div>
+                    <div class="meta-item">
+                        <span>Tanggal:</span>
+                        <p>23 Oktober 2024 - 29 Februari 2025</p>
+                    </div>
+
+                    <h4>Teknologi yang Digunakan</h4>
+                    <div class="project-tags">
+                        <span>IoT</span>
+                        <span>Adruino</span>
+                        <span>Agree</span>
+                        <span>Flutter</span>
+                    </div>
+                </aside>
+            </div>
+        </section>
+
+        <!-- Section 3: Project Gallery -->
+        <section class="project-gallery">
+            <h2 class="section-title">Galeri Proyek</h2>
+            <div class="gallery-grid">
+                 <!-- Ganti dengan screenshot proyek Anda -->
+                <iframe width="460" height="215" src="https://www.youtube.com/embed/jp6N7s-6Y_8?si=juGcX1ykq_lZsR6m" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe width="460" height="215" src="https://www.youtube.com/embed/tkWazixel7U?si=01b92CV8Y7eToh-x&amp;start=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe width="460" height="215" src="https://www.youtube.com/embed/u4J4OY7Vy-4?si=zU_QnGMTop6kJCQf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </section>
+
+        <!-- Section 4: Navigation -->
+        <section class="project-navigation">
+            <a href="project-detail-3.html" class="nav-link-prev">
+                <i class="fas fa-arrow-left"></i>
+                <div>
+                    <span>Proyek Sebelumnya</span>
+                    <h4>Kalkulator Investasi Online</h4>
+                </div>
+            </a>
+            <a href="project-detail-3.html" class="nav-link-next">
+                <div>
+                    <span>Proyek Selanjutnya</span>
+                    <h4>Aplikasi PASTI</h4>
+                </div>
+                <i class="fas fa-arrow-right"></i>
+            </a>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="social-links">
+            <a href="https://github.com/GODAres-lab" aria-label="Github"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/aresky-brilyan-sombolinggi-a4a78a321/" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://www.instagram.com/xclusiveares?igsh=MWNkZHQzemFwb2lvbA==" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        </div>
+        <p>© 2025 AresDev. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio | AresDev - Full-Stack Developer</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- Animate On Scroll Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Stylesheet Utama Anda -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Defer Script for better performance -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js" defer></script>
+    <!-- Tambahkan CDN untuk Vanilla Tilt.js 3d-->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.1/vanilla-tilt.min.js" defer></script>
+    <script src="script.js" defer></script>
+
+    <!-- import swet alert -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+
+    <!-- Header -->
+    <header id="header">
+        <a href="#" class="logo">Ares<span>Dev</span></a>
+        <nav class="navbar">
+            <a href="#landing" class="nav-link">Home</a>
+            <a href="#about" class="nav-link">About</a>
+            <a href="#myskills" class="nav-link">Skills</a>
+            <a href="#projek" class="nav-link">Projects</a>
+            <a href="#contact" class="nav-link">Contact</a>
+        </nav>
+        <div class="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+    </header>
+
+    <!-- Section 1: Landing -->
+    <section id="landing">
+        <div class="landing-text" data-aos="fade-right">
+            <h1>Hi, I'm AresDev <br><span id="animasi-ganti">Full-Stack Developer</span></h1>
+            <p>Menciptakan pengalaman digital yang imersif dan futuristik, menggabungkan kreativitas dengan fungsionalitas kode yang solid.</p>
+            <div class="landing-buttons">
+                <a class="btn btn-alt" href="#about">More Info</a>
+                <a class="btn" href="#contact">Contact Me</a>
+            </div>
+        </div>
+        <div class="hero-pic-container" data-aos="fade-left" data-aos-delay="200">
+            <div class="hero-pic">
+                <img src="images/face.jpg" alt="Foto Profil AresDev">
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 2: About -->
+    <section id="about">
+        <div class="about-image" data-aos="zoom-in-right">
+            <img src="images/about.png" alt="Ilustrasi tentang developer">
+        </div>
+        <div class="about-content" data-aos="zoom-in-left" data-aos-delay="200">
+            <h2 class="section-title">About Me</h2>
+            <p>Saya adalah seorang mahasiswa berusia 18 tahun yang saat ini menempuh
+            pendidikan di Telkom University, jurusan Teknologi Informasi. Sebelumnya,
+            saya menamatkan pendidikan di SMK dengan jurusan Teknik Komputer dan Informatika,
+            yang memberikan saya fondasi kuat dalam pengetahuan mendasar dalam pemrograman dan
+            pengembangan sistem. Selama perkuliahan, saya juga semakin memperdalam pemahaman
+            saya mengenai algoritma pemrograman.</p>
+
+            <p>Selain itu saya juga memiliki pengalaman magang di Badan Riset dan Inovasi
+            Nasional(BRIN) yang dimana memberikan saya kesempatan untuk menerapkan ilmu yang
+            saya pelajari secara langsung dalam lingkungan kerja yang profesional, serta
+            membuka wawasan saya tentang riset dan inovasi di bidang teknologi.</p>
+            <div class="about-exp">
+                <div class="about-exp-item" data-aos="fade-up" data-aos-delay="300">
+                    <h3><i class="fa-solid fa-school"></i> SMKN 2 AMBON</h3>
+                    <p>REKAYASA PERANGKAT LUNAK (2020-2023)</p>
+                </div>
+                <div class="about-exp-item" data-aos="fade-up" data-aos-delay="400">
+                    <h3><i class="fa-solid fa-graduation-cap"></i> TELKOM UNIVERSITY</h3>
+                    <p>TEKNOLOGI INFORMASI (2023-SEKARANG)</p>
+                </div>
+                <div class="about-exp-item" data-aos="fade-up" data-aos-delay="500">
+                    <h3><i class="fa-solid fa-briefcase"></i> MAGANG DI BRIN</h3>
+                    <p>IT SUPPORT (2022)</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 3: Skills -->
+    <section id="myskills">
+        <h2 class="section-title" data-aos="fade-up">My Skills</h2>
+        <div class="skills-container">
+            <!-- Tambahkan atribut data-tilt untuk efek 3D -->
+            <div class="skill-box" data-aos="fade-up" data-aos-delay="0" data-tilt data-tilt-max="15" data-tilt-speed="400" data-tilt-perspective="1000">
+                <i class="fa-solid fa-gamepad icon"></i>
+                <h3>Game Development</h3>
+                <div class="progress-bar"><div class="progress" data-progress="55%"></div></div>
+            </div>
+            <div class="skill-box" data-aos="fade-up" data-aos-delay="100" data-tilt data-tilt-max="15" data-tilt-speed="400" data-tilt-perspective="1000">
+                <i class="fa-solid fa-code icon"></i>
+                <h3>Full Stack</h3>
+                <div class="progress-bar"><div class="progress" data-progress="70%"></div></div>
+            </div>
+            <div class="skill-box" data-aos="fade-up" data-aos-delay="200" data-tilt data-tilt-max="15" data-tilt-speed="400" data-tilt-perspective="1000">
+                <i class="fa-solid fa-database icon"></i>
+                <h3>Database</h3>
+                <div class="progress-bar"><div class="progress" data-progress="65%"></div></div>
+            </div>
+            <div class="skill-box" data-aos="fade-up" data-aos-delay="300" data-tilt data-tilt-max="15" data-tilt-speed="400" data-tilt-perspective="1000">
+                <i class="fa-brands fa-laravel icon"></i>
+                <h3>Laravel</h3>
+                <div class="progress-bar"><div class="progress" data-progress="30%"></div></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 4: Projects -->
+    <section id="projek">
+        <h2 class="section-title" data-aos="fade-up">My Projects</h2>
+        <div class="project-grid">
+            <!-- Project Card 1 (Struktur Baru) -->
+            <div class="project-card" data-aos="fade-up">
+                <img src="images/projek1/p1image0.png" alt="Project Web Application">
+                <div class="project-info">
+                    <h3>Kalkulator Investasi Online</h3>
+                    <p>Sebuah aplikasi web yang memungkinkan pengguna menghitung berbagai jenis perhitungan investasi, 
+                        seperti bunga berfrekuensi, tahun bunga, dan nilai masa depan investasi.</p>
+                    <!-- tag teknologi -->
+                    <div class="project-tags">
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>JavaScript</span>
+                        <span>Bootstrap 5</span>
+                    </div>
+                    <!-- tombol detail -->
+                    <a href="projek/project-detail-1.html" class="btn-project">View Detail <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+             <!-- Project Card 2 -->
+            <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+                <img src="images/projek2/p2image0.jpg" alt="Project UI/UX Design">
+                <div class="project-info">
+                    <h3>Proyek INNOVILLAGE: SASIPAH</h3>
+                    <p>Proyek SASIPAH memanfaatkan IoT dan aplikasi digital untuk membantu petani Desa Muara Purba Nauli mengendalikan hama 
+                        padi dan meningkatkan pendapatan lewat platform Agree.</p>
+                    <div class="project-tags">
+                        <span>IoT</span>
+                        <span>Adruino</span>
+                        <span>Agree</span>
+                        <span>Flutter</span>
+                    </div>
+                    <a href="projek/project-detail-2.html" class="btn-project">View Detail <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+             <!-- Project Card 3 -->
+            <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+                <img src="images/projek3/p3image0.png" alt="Project Mobile Application">
+                <div class="project-info">
+                    <h3>Aplikasi PASTI</h3>
+                    <p>Aplikasi PASTI membantu petani mengelola lahan pertanian, memantau hama, dan meningkatkan produktivitas melalui 
+                        fitur terintegrasi berbasis IoT dan platform Agree.</p>
+                     <div class="project-tags">
+                        <span>Flutter</span>
+                        <span>MQTT</span>
+                        <span>Dart</span>
+                    </div>
+                    <a href="projek/project-detail-3.html" class="btn-project">View Detail <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 5: Contact -->
+    <section id="contact">
+        <div class="contact-wrapper" data-aos="zoom-in">
+            <h2 class="section-title">Contact</h2>
+            <p class="section-subtitle">Have a project or just want to say hi? Feel free to send a message.</p>
+            <form action="https://formspree.io/f/xqadakrl" method="POST" id="contact-form" class="contact-form">
+                <input type="text" name="name" required placeholder="Nama Anda" required>
+                <input type="email" name="email" required placeholder="Email Anda" required>
+                <textarea name="message" rows="5" required placeholder="Pesan Anda" required></textarea>
+                <button type="submit" class="btn">Send Message <i class="fa-solid fa-paper-plane"></i></button>
+            </form>
+        </div>
+    </section>
+    <script src="afteremail.js"></script>
+    
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="social-links">
+            <a href="https://github.com/GODAres-lab" aria-label="Github"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/aresky-brilyan-sombolinggi-a4a78a321/" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://www.instagram.com/xclusiveares?igsh=MWNkZHQzemFwb2lvbA==" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        </div>
+        <p>© 2025 AresDev. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>

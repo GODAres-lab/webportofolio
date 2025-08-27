@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Ganti Judul Sesuai Proyek -->
+    <title>Detail Proyek: Kalkulator Investasi Online | AresDev</title>
+
+    <!-- Font Awesome (Sama seperti index.html) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- Stylesheet Utama (Gunakan file CSS yang sama) -->
+    <link rel="stylesheet" href="../style.css">
+
+    <!-- Script (Tidak perlu AOS atau Tilt di sini, tapi script utama tetap penting untuk header) -->
+    <script src="../script.js" defer></script>
+</head>
+<body>
+
+    <!-- Header (Gunakan header yang sama untuk konsistensi) -->
+    <header id="header">
+        <a href="../index.html" class="logo">Ares<span>Dev</span></a>
+        <nav class="navbar">
+            <a href="../index.html#landing" class="nav-link">Home</a>
+            <a href="../index.html#about" class="nav-link">About</a>
+            <a href="../index.html#myskills" class="nav-link">Skills</a>
+            <a href="../index.html#projek" class="nav-link">Projects</a>
+            <a href="../index.html#contact" class="nav-link">Contact</a>
+        </nav>
+        <div class="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+    </header>
+
+    <main class="project-detail-page">
+        <!-- Section 1: Project Hero -->
+        <section class="project-hero">
+            <div class="project-header">
+                <a href="../index.html#projek" class="back-link"><i class="fas fa-arrow-left"></i> Kembali ke Proyek</a>
+                <h1>Kalkulator Investasi Online</h1>
+                <p class="project-summary">Sebuah aplikasi web yang memungkinkan pengguna menghitung berbagai jenis perhitungan investasi, 
+                    seperti bunga berfrekuensi, tahun bunga, dan nilai masa depan investasi.</p>
+                <div class="project-links">
+                    <a href="https://godares-lab.github.io/KalkulatorInvestasiOnlineBungaMasaDepan/" class="btn" target="_blank" rel="noopener noreferrer">Lihat Live Demo <i class="fas fa-external-link-alt"></i></a>
+                    <a href="https://github.com/GODAres-lab/KalkulatorInvestasiOnlineBungaMasaDepan" class="btn btn-alt" target="_blank" rel="noopener noreferrer">Lihat Source Code <i class="fab fa-github"></i></a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <!-- Ganti dengan gambar utama proyek Anda -->
+                <img src="../images/projek1/p1image0.png" alt="Tampilan utama web Kalkulator Invest">
+            </div>
+        </section>
+
+        <!-- Section 2: Project Content -->
+        <section class="project-content">
+            <div class="project-content-grid">
+                <!-- Kolom Kiri: Deskripsi Detail -->
+                <div class="project-description">
+                    <h2>Tentang Proyek</h2>
+                    <p>Proyek ini adalah kalkulator investasi berbasis web yang dirancang untuk membantu pengguna dalam merencanakan keuangan mereka. 
+                        Dengan antarmuka yang sederhana dan intuitif, pengguna dapat dengan mudah memasukkan data investasi mereka dan mendapatkan hasil 
+                        perhitungan secara instan.</p>
+                    
+                    <h3>Tantangan & Solusi</h3>
+                    <p>Untuk menghubungkan navigasi antar bagian tanpa perlu me-reload halaman, tantangannya terletak pada bagaimana menampilkan konten yang 
+                        relevan secara dinamis sesuai interaksi pengguna. Solusinya adalah dengan memanfaatkan event hashchange, yang memungkinkan kita mendeteksi 
+                        perubahan pada hash di URL. Ketika hash berubah, JavaScript dapat digunakan untuk menampilkan bagian yang sesuai dan menyembunyikan bagian lainnya, 
+                        sehingga menciptakan pengalaman navigasi yang mulus dan responsif tanpa perlu memuat ulang seluruh halaman.</p>
+
+                    <h3>Fitur Utama</h3>
+                    <ul>
+                        <li><i class="fas fa-check-circle"></i> Kalkulator bunga sederhana untuk menghitung waktu mencapai target investasi.</li>
+                        <li><i class="fas fa-check-circle"></i> Kalkulator bunga majemuk dengan frekuensi bunga yang bisa disesuaikan.</li>
+                        <li><i class="fas fa-check-circle"></i> Kalkulator nilai masa depan investasi dengan bunga tunggal.</li>
+                        <li><i class="fas fa-check-circle"></i> Antarmuka intuitif dengan navigasi berbasis hash untuk pengalaman tanpa reload.</li>
+                        <li><i class="fas fa-check-circle"></i> Desain responsif dan visual menarik menggunakan ilustrasi.</li>
+                    </ul>
+                </div>
+                <!-- Kolom Kanan: Metadata -->
+                <aside class="project-meta">
+                    <h4>Informasi Proyek</h4>
+                    <div class="meta-item">
+                        <span>Klien:</span>
+                        <p>Proyek Pribadi</p>
+                    </div>
+                    <div class="meta-item">
+                        <span>Peran Saya:</span>
+                        <p>Full-Stack Developer</p>
+                    </div>
+                    <div class="meta-item">
+                        <span>Tanggal:</span>
+                        <p>03 Januari 2024</p>
+                    </div>
+
+                    <h4>Teknologi yang Digunakan</h4>
+                    <div class="project-tags">
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>JavaScript</span>
+                        <span>Bootstrap 5</span>
+                    </div>
+                </aside>
+            </div>
+        </section>
+
+        <!-- Section 3: Project Gallery -->
+        <section class="project-gallery">
+            <h2 class="section-title">Galeri Proyek</h2>
+            <div class="gallery-grid">
+                 <!-- Ganti dengan screenshot proyek Anda -->
+                <img src="../images/projek1/p1image1.png" alt="Tampilan Hitung Bunga">
+                <img src="../images/projek1/p1image2.png" alt="Tampilan Beranda">
+                <img src="../images/projek1/p1image3.png" alt="Tampilan Kalkulator Invest">
+            </div>
+        </section>
+
+        <!-- Section 4: Navigation -->
+        <section class="project-navigation">
+            <a href="project-detail-3.html" class="nav-link-prev">
+                <i class="fas fa-arrow-left"></i>
+                <div>
+                    <span>Proyek Sebelumnya</span>
+                    <h4>Aplikasi Booking Online</h4>
+                </div>
+            </a>
+            <a href="project-detail-2.html" class="nav-link-next">
+                <div>
+                    <span>Proyek Selanjutnya</span>
+                    <h4>Desain Aplikasi Finansial</h4>
+                </div>
+                <i class="fas fa-arrow-right"></i>
+            </a>
+        </section>
+    </main>
+
+    <!-- Footer (Gunakan footer yang sama) -->
+    <footer id="footer">
+        <div class="social-links">
+            <a href="#" aria-label="Github"><i class="fab fa-github"></i></a>
+            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        </div>
+        <p>© 2024 AresDev. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
