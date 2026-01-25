@@ -73,4 +73,31 @@ document.addEventListener('DOMContentLoaded', () => {
             "max-glare": 0.2 // Intensitas kilau
         });
     }
+
+    // 5. Inisialisasi Swiper untuk Sertifikat
+    const swiper = new Swiper('.cert-slider', {
+        slidesPerView: 1,
+        spaceBetween: 20,
+        loop: true,
+        grabCursor: true,
+        autoplay: {
+            delay: 2000,
+            disableOnInteraction: false,
+        },
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+        breakpoints: {
+            // ketika lebar layar >= 768px (tablet)
+            768: {
+                slidesPerView: 2,
+            },
+            // ketika lebar layar >= 1024px (desktop)
+            1024: {
+                slidesPerView: 3,
+                spaceBetween: 30,
+            }
+        }
+    });
 });
